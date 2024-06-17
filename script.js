@@ -43,7 +43,8 @@ const perguntas = [
 ];
 
 let atual =0;
-let pergunta.Atual;
+let perguntaAtual;
+let historiaFinal = " ";
 
 function mostraPergunta(){
     perguntaAtual = perguntas[atual]
@@ -51,11 +52,20 @@ function mostraPergunta(){
     mostraAlternativas();
 }
 
-function mostraPergunta();
+function mostraAlternativas(){
 for(const alternativas of perguntaAtual{
-const botaoalternativas = document.createElement("button")
-botaoalternativas.textContent = alternativas;
+const botaoAlternativas = document.createElement("button")
+botaoAlternativas.textContent = alternativas.texto;
+botaoAlternativas.addEventListener("click", ()=> repostaSelecionada(alternativas));
 caixaAlternativas.appendChild(botaoalternativas)
 }
-)
-]
+}
+
+function repostaSelecionada(opcaoSelecionada){
+    const afirmacoes = opcaoSelecionada.afirmacoes;
+    historiaFinal = afirmacoes;
+    atual++;
+    mostraPergunta;
+}
+mostraPergunta();
+
