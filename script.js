@@ -6,11 +6,11 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual sua opinião sobre o chat gpt: [
+        enunciado: "Qual sua opinião sobre as IAs de informação [
             alternativa:[
     {
-            texto: "Isso é assustador!",
-            afirmacao:"afirmacao"
+            texto: "Necessária para evolução humana",
+            afirmacao:"Desnecessária para evolução humana"
     },
     {
         texto: "nao"
