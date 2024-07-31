@@ -10,11 +10,11 @@ const perguntas = [
             alternativa:[
     {
             texto: "Necessária para evolução humana",
-            afirmacao:"Desnecessária para evolução humana"
+            afirmacao:"você acha que o auxilio das IAs é essencial para a evolução, por conta de seu rápido processamento de informações"
     },
     {
-        texto: "nao"
-            afirmacao:"afirmacao",
+        texto: "Não é necessária para evolução humana"
+            afirmacao:"Você acha que Os humanos podem avançar rapidamente sua tecnologia sem a necessidade de usar as IAs e sua velocidade de processamento",
     },
     ]
         enunciado: "Com o avanço da IA e seu destaque, o seu professor de programção decide fazer um trabalho sobre a mesma, qual metodo voce utiliza para a realização do trabalho",
@@ -22,7 +22,7 @@ const perguntas = [
             {
                 texto: 
             "Busca informações a parte e constrói sua própria conclusão sobre a IA e seu futuro.",
-            afirmacao:"afirmacao"
+            afirmacao:"Você prefere buscar informações do seu jeito"
                 },
             {
                 "Pede para que Uma IA se defina e utiliza suas informações para a realização do trabalho.",
@@ -33,6 +33,7 @@ const perguntas = [
         alternativas: [
             "a favor da IA e sua evlução.",
             "contra a IA e sua evolução."
+            afirmacao:"seu posicionamento em sala de aula foi uma das alternativas acima"
         ]
     },
     {
@@ -40,6 +41,7 @@ const perguntas = [
         alternativas: [
             "Criar uma imagem utilizando uma plataforma de arte, como model3D.",
             "Criar uma imagem utilizando um gerador de imagem de IA."
+            afirmacao:"Você criou uma imagem"
         ]
     },
     {
@@ -47,6 +49,7 @@ const perguntas = [
         alternativas: [
            "a ajuda da IA é a mesma coisa que algo criado por uma inteligencia humana. portanto não precisa alterar nada.",
             "Por mais que a Ia seja uma tecnologia avançada, não deveriamos confiar totalmente nela e deveriamos revisar e complementar o texto."
+        afirmacao:"você utilizou a IA"
         ]
     },
 ];
