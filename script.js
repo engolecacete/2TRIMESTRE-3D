@@ -74,11 +74,16 @@ function mostroAlternativa(){
     }
 }
 mostraAlternativas();
-    function respostaSElecionada(opcaoSelecionada){
+    function respostaSelecionada(opcaoSelecionada){
         cost afirmacoes = opcaoSelecionada.afirmacoes;
         historiaFinal = afirmacoes;
         atual++;
         mostraPergunta;
     }
+function mostraResultado(){
+    caixaPerguntas.textContent = "Esse texto é a introdução para juntar todas as afirmações das respostas..."
+    textoResultado.textContent = historiaFinal
+    caixaAlternativas.textContent ="";
     
+}    
 mostraPergunta();
